@@ -28,10 +28,10 @@ background:url(covid.jpg) no-repeat center;
   font-family: 'Coda Caption', sans-serif;
 }
 
-@media screen and (min-width:1224px) {
+@media screen and (max-width:1224px) {
 
 	.headline {
-		font-size:4rem;
+		font-size:8vw;
      color:#aca1ae;
     font-family: 'Coda Caption', sans-serif;
 	}
@@ -46,10 +46,10 @@ background:url(covid.jpg) no-repeat center;
 }
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
 
 	.tagline{
-		font-size: 2rem;
+		font-size: 4vw;
      color:#aca1ae;
     font-family: 'Coda Caption', sans-serif;
 	}
@@ -68,7 +68,7 @@ background:url(covid.jpg) no-repeat center;
 @media screen and (max-width: 1224px) {
 
 	.name{
-		font-size: 1rem;
+		font-size: 3vw;
      color:#aca1ae;
      font-family: 'Source Sans Pro', sans-serif;
 	}
@@ -89,6 +89,7 @@ body {
  background-color:#ffffff;
  font-size: 25px;
  overflow-x: hidden; 
+ margin: 0px;
 }
 
 .content-subhead {
